@@ -58,7 +58,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/default_number"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -70,7 +70,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/default_number2"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             android:layout_weight="1"
@@ -95,6 +95,7 @@
             android:layout_marginTop="12dp"
             android:layout_marginBottom="12dp"
             android:layout_weight="1"
+            android:onClick="IncreasePointLeft1"
             android:paddingStart="20dp"
             android:paddingTop="5dp"
             android:paddingEnd="10dp"
@@ -109,6 +110,7 @@
             android:layout_marginTop="12dp"
             android:layout_marginBottom="12dp"
             android:layout_weight="1"
+            android:onClick="IncreasePointRight1"
             android:paddingStart="20dp"
             android:paddingTop="5dp"
             android:paddingEnd="10dp"
@@ -129,6 +131,7 @@
             android:layout_marginTop="12dp"
             android:layout_marginBottom="12dp"
             android:layout_weight="1"
+            android:onClick="IncreasePointLeft2"
             android:text="+2 POINT"
             android:textStyle="bold" />
 
@@ -139,6 +142,7 @@
             android:layout_marginTop="12dp"
             android:layout_marginBottom="12dp"
             android:layout_weight="1"
+            android:onClick="IncreasePointRight2"
             android:text="+2 POINT"
             android:textStyle="bold" />
     </LinearLayout>
@@ -155,6 +159,7 @@
             android:layout_marginTop="12dp"
             android:layout_marginBottom="30dp"
             android:layout_weight="1"
+            android:onClick="IncreasePointLeft3"
             android:text="+3 POINT"
             android:textStyle="bold" />
 
@@ -165,6 +170,7 @@
             android:layout_marginTop="12dp"
             android:layout_marginBottom="30dp"
             android:layout_weight="1"
+            android:onClick="IncreasePointRight3"
             android:text="+3 POINT"
             android:textStyle="bold" />
     </LinearLayout>
@@ -176,6 +182,7 @@
         android:layout_height="60dp"
         android:layout_marginLeft="35dp"
         android:layout_marginRight="35dp"
+        android:onClick="ResetScore"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
         android:text="Reset"
